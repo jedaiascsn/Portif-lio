@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm p-3 rounded-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-dark fs-5" href="#">Jedaías Carlos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2 gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TEXTO E BANNER -->
+    <div class="container mt-5 pt-5">
+        <div class="row align-items-center justify-content-center g-5">
+            <div class="col-12 col-lg-6 text-center text-lg-start">
+                <p class="fs-5 fw-semibold text-secondary mb-2 texto-apresentacao">UX Design - Desenvolvimento Web -
+                    Gestão de Projetos</p>
+                <p class="fs-3 text-dark mb-4">Posso ajudar o seu negócio a</p>
+                <h2 class="display-3 fw-bold text-dark mb-4">Entrar na internet e crescer rapidamente</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <button class="btn btn-secondary btn-banner shadow-md">Meus projetos</button>
+                </div>
+            </div>
+            <!-- IMAGEM -->
+            <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                <img src="/img/Banner.png" class="img-fluid-banner shadow" alt="Descrição da imagem">
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <div class="container my-5 py-5 bg-light rounded-3 shadow">
+        <h1 class="display-4 fw-bold text-center text-dark mb-4 titulos">Sobre mim</h1>
+        <p class="fs-4 text-center text-secondary mb-5">Me chamo Jedaías Carlos e posso ajudar sua marca a crescer</p>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 bg-white p-5 rounded-3 shadow-inner">
+                <p class="text-dark-700 lh-base">
+                    Minha jornada no mundo digital começou com uma curiosidade em entender como a tecnologia pode
+                    simplificar a vida das pessoas. Hoje, como estudante do SENAC, estou construindo uma base sólida em
+                    três pilares essenciais: a <strong>programação web</strong>, para dar vida aos projetos; o
+                    <strong>UX Design</strong>, para garantir que essa experiência seja fluida e intuitiva; e a
+                    <strong>Gestão de Projetos</strong>, para manter tudo no caminho certo.
+                    <br><br>
+                    Estou sempre em busca de novos desafios e oportunidades para aplicar o que aprendo, unindo a lógica
+                    do código com a empatia do design e a organização da gestão.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO PROJETOS -->
+    <div class="container my-5 py-5">
+        <h1 class="display-4 fw-bold text-center text-dark mb-5 titulos">Projetos</h1>
+
+        <!-- Card do Projeto 1 -->
+        <div class="card card-project mb-4 d-flex flex-column flex-lg-row">
+            <div class="col-12 col-lg-4 p-0">
+                <img src="/img/Tech4pets.jpeg" class="img-fluid rounded-start" alt="Imagem do Card 1">
+            </div>
+            <div class="card-body p-4 d-flex flex-column justify-content-center">
+                <h5 class="card-title h4 fw-semibold mb-2">Tech4Pets</h5>
+                <p class="card-text text-secondary lh-base mb-4">Site totalmente responsivo, criado em bootstrap.
+                    Voltado para divulgação de uma coleira inteligente.</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2 mt-auto">Ver Mais</a>
+            </div>
+        </div>
+
+        <!-- Card do Projeto 2 -->
+        <div class="card card-project mb-4 d-flex flex-column flex-lg-row">
+            <div class="col-12 col-lg-4 p-0">
+                <img src="" class="img-fluid rounded-start" alt="Imagem do Card 2">
+            </div>
+            <div class="card-body p-4 d-flex flex-column justify-content-center">
+                <h5 class="card-title h4 fw-semibold mb-2">Segundo Projeto</h5>
+                <p class="card-text text-secondary lh-base mb-4">Lembrar de colocar o texto</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2 mt-auto">Ver Mais</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO FORMULÁRIO DE CONTATO -->
+    <section class="container-fluid bg-light py-5 my-5 rounded-3 shadow">
+        <div class="container py-5">
+            <h2 class="display-4 fw-bold text-center text-dark mb-5 titulos">Formulário de Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 bg-white p-5 rounded-3 shadow-sm">
+                    <form action="/processar-formulario" method="POST">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label text-dark">Nome</label>
+                            <input type="text" class="form-control rounded-pill" id="nome" name="nome"
+                                placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-dark">Email</label>
+                            <input type="email" class="form-control rounded-pill" id="email" name="email"
+                                placeholder="exemplo@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label text-dark">Telefone</label>
+                            <input type="tel" class="form-control rounded-pill" id="telefone" name="telefone"
+                                placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label text-dark">Mensagem</label>
+                            <textarea class="form-control rounded-3" id="mensagem" name="mensagem" rows="4"
+                                placeholder="Digite sua mensagem aqui" required></textarea>
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow-lg">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5 class="fs-5 fw-bold mb-3">Sobre meu trabalho</h5>
+                    <p class="text-secondary lh-base">Meu trabalho é Idealizar e planejar aplicações, aliando meu
+                        conhecimento em Desenvolvimento Web</p>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 class="fs-5 fw-bold mb-3">Redes Sociais</h5>
+                    <a href="#" class="text-secondary me-3">
+                        <i class="bi bi-facebook fs-4"></i>
+                    </a>
+                    <a href="#" class="text-secondary me-3">
+                        <i class="bi bi-twitter fs-4"></i>
+                    </a>
+                    <a href="#" class="text-secondary">
+                        <i class="bi bi-instagram fs-4"></i>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="fs-5 fw-bold mb-3">Contato</h5>
+                    <p class="text-secondary mb-1">Email: jedaias.csn@gmail.com</p>
+                    <p class="text-secondary">Telefone: (86) 98844-1593</p>
+                </div>
+            </div>
+            <hr class="bg-secondary mt-4">
+            <p class="text-center mb-0 text-secondary">&copy; 2025 <a href="#"
+                    class="text-white text-decoration-none">Jedaías Carlos</a>. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
